@@ -23,6 +23,7 @@ requirements:
     - {{ compiler('c') }}
     - cmake
     - make
+    - scikit-build
   host:
     - python
     - numpy

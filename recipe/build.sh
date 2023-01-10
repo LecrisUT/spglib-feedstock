@@ -4,7 +4,6 @@ cmake ${CMAKE_ARGS} -DCMAKE_C_COMPILER=$CC -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAK
 cmake --build . --target install
 
 (cd python
-    cp -r ../src .
     $PYTHON -m pip install .
 )
 
